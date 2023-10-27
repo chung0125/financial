@@ -1,4 +1,4 @@
-#准备XML文件： 首先，您需要创建一个名为 "setting.xml" 的XML文件，其中包含以下内容：
+# 准备XML文件： 首先，您需要创建一个名为 "setting.xml" 的XML文件，其中包含以下内容：
 <data>
     <x>10000</x>
     <s>10</s>
@@ -6,13 +6,13 @@
 </data>
 这个XML文件包含了三个参数：本金（x）、年利率（s）和投资年份（y）。您可以根据需要修改这些值。
 
-#运行Python程序： 将上面的Python程序保存为一个Python文件（例如，"calculate_compound_interest.py"），确保它与 "setting.xml" 文件在同一个文件夹中。
+# 运行Python程序： 将上面的Python程序保存为一个Python文件（例如，"calculate_compound_interest.py"），确保它与 "setting.xml" 文件在同一个文件夹中。
 
-#运行程序： 打开命令行终端或终端窗口，导航到包含这两个文件的文件夹，并运行程序。在命令行中，执行以下命令：
+# 运行程序： 打开命令行终端或终端窗口，导航到包含这两个文件的文件夹，并运行程序。在命令行中，执行以下命令：
 python calculate_compound_interest.py
 程序将读取 "setting.xml" 文件中的数据，执行复利计算，然后生成一个名为 "result.txt" 的文本文件。
 
-#查看结果： 打开 "result.txt" 文件，您将在其中找到以下内容：
+# 查看结果： 打开 "result.txt" 文件，您将在其中找到以下内容：
 本金: 10000
 年利率: 10
 投资年份: 20
